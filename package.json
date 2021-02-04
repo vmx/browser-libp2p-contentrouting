@@ -1,0 +1,42 @@
+{
+  "name": "@vmx/browser-libp2p-contentrouting",
+  "version": "1.0.0",
+  "description": "message channel in the browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build-prod": "webpack-cli build --no-devtool --mode=production",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willscott/browser-libp2p-contentrouting.git"
+  },
+  "keywords": [
+    "libp2p"
+  ],
+  "author": "Volker Mische <volker.mische@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vmx/browser-libp2p-contentrouting/issues"
+  },
+  "homepage": "https://github.com/vmx/browser-libp2p-contentrouting#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "dependencies": {
+    "cids": "^1.1.5",
+    "ipfs": "^0.54.0"
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.3",
+    "webpack": "^5.19.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
