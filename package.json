@@ -27,7 +27,8 @@
   },
   "dependencies": {
     "cids": "^1.1.5",
-    "ipfs": "^0.54.0"
+    "ipfs": "^0.54.0",
+    "libp2p-websockets": "^0.15.1"
   },
   "devDependencies": {
     "assert": "^2.0.0",
